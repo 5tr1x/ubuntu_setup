@@ -34,7 +34,7 @@ go install github.com/ffuf/ffuf@latest
 go install github.com/haccer/subjack@latest
 
 git clone https://github.com/danielmiessler/SecLists.git
-
+nuclei
 wget https://github.com/5tr1x/ubuntu_setup/raw/main/.tmux.conf
 mkdir X
 
