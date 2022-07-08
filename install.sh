@@ -17,7 +17,11 @@ jq
 LIST=$(for i in ${apt_tools[@]}; do echo -n $i && echo -n ' '; done)
 sudo apt install $LIST
 
-#GO
+wget https://go.dev/dl/go1.18.3.linux-amd64.tar.gz
+sudo tar -C /usr/local -xvf go1.18.3.linux-amd64.tar.gz
+rm go1.18.3.linux-amd64.tar.gz
+echo 'export PATH=$PATH:/usr/local/go/bin:~/go/bin' >> .profile
+source .profile
 
 go install github.com/tomnomnom/assetfinder@latest
 go install github.com/tomnomnom/httprobe@latest
