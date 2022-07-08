@@ -4,6 +4,8 @@ echo '[*] STARTING'
 echo ''
 sleep 3
 
+sudo apt update
+
 apt_tools=(
 
 tmux
