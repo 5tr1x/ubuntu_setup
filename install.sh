@@ -15,7 +15,7 @@ jq
 )
 
 LIST=$(for i in ${apt_tools[@]}; do echo -n $i && echo -n ' '; done)
-apt install $LIST -y
+sudo apt install $LIST
 
 #GO
 
@@ -32,7 +32,7 @@ git clone https://github.com/danielmiessler/SecLists.git
 wget https://github.com/5tr1x/ubuntu_setup/raw/main/.tmux.conf
 mkdir X
 
-apt autoremove -y
+sudo apt autoremove
 
 sleep 3
 echo ''
