@@ -1,0 +1,1 @@
+alias srt-nuclei='nuclei -rl 30 -bs 10 -c 10'
