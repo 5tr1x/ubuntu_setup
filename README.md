@@ -7,3 +7,4 @@
 5. background
 6. tools
 7. alias
+8. flameshot
