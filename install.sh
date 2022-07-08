@@ -27,6 +27,11 @@ go install github.com/OJ/gobuster/v3@latest
 go install github.com/ffuf/ffuf@latest
 go install github.com/haccer/subjack@latest
 
+git clone https://github.com/danielmiessler/SecLists.git
+
+wget https://github.com/5tr1x/ubuntu_setup/raw/main/.tmux.conf
+mkdir X
+
 apt autoremove -y
 
 sleep 3
