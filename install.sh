@@ -25,8 +25,8 @@ rm go1.18.3.linux-amd64.tar.gz
 echo 'export PATH=$PATH:/usr/local/go/bin:~/go/bin' >> .profile
 source .profile
 
+go install github.com/tomnomnom/httprobe@master
 go install github.com/tomnomnom/assetfinder@latest
-go install github.com/tomnomnom/httprobe@latest
 go install github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 go install github.com/OJ/gobuster/v3@latest
